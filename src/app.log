@@ -1,0 +1,1113 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:16:11] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.cnnindonesia.com/nasional/20240530174348-617-1103909/golkar-tak-cemas-jika-kaesang-ikut-pilgub-dki-belum-tentu-menang
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cnnindonesia.com:443
+DEBUG:urllib3.connectionpool:https://www.cnnindonesia.com:443 "GET /nasional/20240530174348-617-1103909/golkar-tak-cemas-jika-kaesang-ikut-pilgub-dki-belum-tentu-menang HTTP/1.1" 301 None
+DEBUG:urllib3.connectionpool:https://www.cnnindonesia.com:443 "GET /nasional/20240530174348-617-1103909/doli-kurnia-respons-putusan-ma-dan-peluang-kaesang-maju-pilgub HTTP/1.1" 200 None
+DEBUG:root:Article text: --
+
+Wakil Ketua Umum Partai Golkar Ahmad Doli Kurnia menanggapi santai isu putra bungsu Presiden Jokowi yakni Kaesang Pangarep ikut pemilihan calon gubernur-wakil gubernur Jakarta di Pilkada 2024. Kaesang berpeluang maju usai putusan Mahkamah Agung soal batas usia calon gubernur dan calon wakil gubernur di Pilkada 2024.
+
+Doli mengatakan gugatan soal Peraturan KPU (PKPU) tersebut tak ada kaitan dengan Kaesang. Penggugat adalah Partai Garuda. Karena itu ia menilai tak perlu dikait-kaitkan ke sosok...
+DEBUG:root:Processed text:  wakil ketua umum partai golkar ahmad doli kurnia menanggapi santai isu putra bungsu presiden jokowi yakni kaesang pangarep ikut pemilihan calon gubernur wakil gubernur jakarta di pilkada 2024 kaesang berpeluang maju usai putusan mahkamah agung soal batas usia calon gubernur dan calon wakil gubernur di pilkada 2024 doli mengatakan gugatan soal peraturan kpu pkpu tersebut tak ada kaitan dengan kaesang penggugat adalah partai garuda karena itu ia menilai tak perlu dikait kaitkan ke sosok tertentu ...
+DEBUG:root:Prediction result: fake
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:16:12] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:16:32] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://sultra.antaranews.com/berita/460752/kemenkes-rekomendasikan-cara-terbaik-pemberian-asi-pada-bayi
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sultra.antaranews.com:443
+DEBUG:urllib3.connectionpool:https://sultra.antaranews.com:443 "GET /berita/460752/kemenkes-rekomendasikan-cara-terbaik-pemberian-asi-pada-bayi HTTP/1.1" 200 None
+DEBUG:root:Article text: ...
+ERROR:root:Error occurred: Failed to extract text from article.
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:16:33] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:17:37] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://sultra.antaranews.com/berita/460752/kemenkes-rekomendasikan-cara-terbaik-pemberian-asi-pada-bayi
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sultra.antaranews.com:443
+DEBUG:urllib3.connectionpool:https://sultra.antaranews.com:443 "GET /berita/460752/kemenkes-rekomendasikan-cara-terbaik-pemberian-asi-pada-bayi HTTP/1.1" 200 None
+DEBUG:root:Article text: ...
+ERROR:root:Error occurred: Failed to extract text from article.
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:17:37] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:18:59] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://sultra.antaranews.com/berita/460752/kemenkes-rekomendasikan-cara-terbaik-pemberian-asi-pada-bayi
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sultra.antaranews.com:443
+DEBUG:urllib3.connectionpool:https://sultra.antaranews.com:443 "GET /berita/460752/kemenkes-rekomendasikan-cara-terbaik-pemberian-asi-pada-bayi HTTP/1.1" 200 None
+DEBUG:root:Article text: ...
+ERROR:root:Error occurred: Failed to extract text from article.
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:19:00] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:20:21] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://sultra.antaranews.com/berita/460752/kemenkes-rekomendasikan-cara-thttps://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pnserbaik-pemberian-asi-pada-bayi
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sultra.antaranews.com:443
+DEBUG:urllib3.connectionpool:https://sultra.antaranews.com:443 "GET /berita/460752/kemenkes-rekomendasikan-cara-thttps://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pnserbaik-pemberian-asi-pada-bayi HTTP/1.1" 404 None
+DEBUG:newspaper.article:Download failed on URL https://sultra.antaranews.com/berita/460752/kemenkes-rekomendasikan-cara-thttps://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pnserbaik-pemberian-asi-pada-bayi because of 404 Client Error: Not Found for url: https://sultra.antaranews.com/berita/460752/kemenkes-rekomendasikan-cara-thttps://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pnserbaik-pemberian-asi-pada-bayi
+ERROR:root:Error occurred: Article `download()` failed with 404 Client Error: Not Found for url: https://sultra.antaranews.com/berita/460752/kemenkes-rekomendasikan-cara-thttps://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pnserbaik-pemberian-asi-pada-bayi on URL https://sultra.antaranews.com/berita/460752/kemenkes-rekomendasikan-cara-thttps://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pnserbaik-pemberian-asi-pada-bayi
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:20:21] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:20:57] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://sultra.antaranews.com/berita/460752/kemenkes-rekomendasikan-cara-thttps://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pnserbaik-pemberian-asi-pada-bayi
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sultra.antaranews.com:443
+DEBUG:urllib3.connectionpool:https://sultra.antaranews.com:443 "GET /berita/460752/kemenkes-rekomendasikan-cara-thttps://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pnserbaik-pemberian-asi-pada-bayi HTTP/1.1" 404 None
+DEBUG:newspaper.article:Download failed on URL https://sultra.antaranews.com/berita/460752/kemenkes-rekomendasikan-cara-thttps://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pnserbaik-pemberian-asi-pada-bayi because of 404 Client Error: Not Found for url: https://sultra.antaranews.com/berita/460752/kemenkes-rekomendasikan-cara-thttps://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pnserbaik-pemberian-asi-pada-bayi
+ERROR:root:Error occurred: Article `download()` failed with 404 Client Error: Not Found for url: https://sultra.antaranews.com/berita/460752/kemenkes-rekomendasikan-cara-thttps://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pnserbaik-pemberian-asi-pada-bayi on URL https://sultra.antaranews.com/berita/460752/kemenkes-rekomendasikan-cara-thttps://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pnserbaik-pemberian-asi-pada-bayi
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:20:58] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:23:44] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://sultra.antaranews.com/berita/460752/kemenkes-rekomendasikan-cara-thttps://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pnserbaik-pemberian-asi-pada-bayi
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sultra.antaranews.com:443
+DEBUG:urllib3.connectionpool:https://sultra.antaranews.com:443 "GET /berita/460752/kemenkes-rekomendasikan-cara-thttps://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pnserbaik-pemberian-asi-pada-bayi HTTP/1.1" 404 None
+DEBUG:newspaper.article:Download failed on URL https://sultra.antaranews.com/berita/460752/kemenkes-rekomendasikan-cara-thttps://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pnserbaik-pemberian-asi-pada-bayi because of 404 Client Error: Not Found for url: https://sultra.antaranews.com/berita/460752/kemenkes-rekomendasikan-cara-thttps://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pnserbaik-pemberian-asi-pada-bayi
+ERROR:root:Error occurred: Failed to process article: Article `download()` failed with 404 Client Error: Not Found for url: https://sultra.antaranews.com/berita/460752/kemenkes-rekomendasikan-cara-thttps://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pnserbaik-pemberian-asi-pada-bayi on URL https://sultra.antaranews.com/berita/460752/kemenkes-rekomendasikan-cara-thttps://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pnserbaik-pemberian-asi-pada-bayi
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:23:44] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:26:45] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pns
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.detik.com:443
+DEBUG:urllib3.connectionpool:https://www.detik.com:443 "GET /properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pns HTTP/1.1" 200 None
+DEBUG:root:Article text: Pemerintah memberikan penjelasan mengenai tabungan perumahan (Tapera) yang belakangan heboh diperbincangkan. Kenapa saat ini Tapera juga diperuntukkan untuk semua Pekerja?
+
+Kepala Staf Kepresidenan Moeldoko menyebut, Tapera adalah program penyediaan perumahan yang dijalankan pemerintah yang juga merupakan lanjutan dari program Bapertarum.
+
+"Tapera itu sesungguhnya perpanjangan dari Bapertarum. Bapertarum ini dulu dikhususkan untuk ASN, sekarang diperluas ke pekerja mandiri dan swasta," ujar Moel...
+DEBUG:root:Processed text: pemerintah memberikan penjelasan mengenai tabungan perumahan tapera yang belakangan heboh diperbincangkan kenapa saat ini tapera juga diperuntukkan untuk semua pekerja kepala staf kepresidenan moeldoko menyebut tapera adalah program penyediaan perumahan yang dijalankan pemerintah yang juga merupakan lanjutan dari program bapertarum tapera itu sesungguhnya perpanjangan dari bapertarum bapertarum ini dulu dikhususkan untuk asn sekarang diperluas ke pekerja mandiri dan swasta ujar moeldoko dalam ko...
+DEBUG:root:Prediction result: fake
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:26:47] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:27:09] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://nasional.tempo.co/read/1874258/respons-pdip-gerindra-dan-nasdem-soal-batas-usia-calon-kepala-daerah-putusan-ma
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): nasional.tempo.co:443
+DEBUG:urllib3.connectionpool:https://nasional.tempo.co:443 "GET /read/1874258/respons-pdip-gerindra-dan-nasdem-soal-batas-usia-calon-kepala-daerah-putusan-ma HTTP/1.1" 200 None
+DEBUG:root:Article HTML: <!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+  <!-- tiktok pixel code -->
+<script>
+		!function (w, d, t) {
+		  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++
+)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+
+		  t...
+ERROR:root:Error occurred: Failed to process article: Failed to extract text from article.
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:27:10] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:28:02] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://kumparan.com/kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kumparan.com:443
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1 HTTP/1.1" 301 119
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM HTTP/1.1" 200 None
+DEBUG:root:Article text: Lebih lanjut, IUPK (izin usaha pertambangan khusus) ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba....
+DEBUG:root:Processed text: lebih lanjut iupk izin usaha pertambangan khusus ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba ...
+DEBUG:root:Prediction result: real
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:28:03] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:29:20] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://kumparan.com/kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kumparan.com:443
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1 HTTP/1.1" 301 119
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM HTTP/1.1" 200 None
+DEBUG:root:Article text: Lebih lanjut, IUPK (izin usaha pertambangan khusus) ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba....
+DEBUG:root:Processed text: lebih lanjut iupk izin usaha pertambangan khusus ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba ...
+DEBUG:root:Prediction result: real
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:29:21] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:36:36] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://kumparan.com/kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kumparan.com:443
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1 HTTP/1.1" 301 119
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM HTTP/1.1" 200 None
+DEBUG:root:Article text: Lebih lanjut, IUPK (izin usaha pertambangan khusus) ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba....
+DEBUG:root:Processed text: lebih lanjut iupk izin usaha pertambangan khusus ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba ...
+DEBUG:root:Prediction result: real
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:36:37] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:36:48] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://nasional.tempo.co/read/1874258/respons-pdip-gerindra-dan-nasdem-soal-batas-usia-calon-kepala-daerah-putusan-ma
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): nasional.tempo.co:443
+DEBUG:urllib3.connectionpool:https://nasional.tempo.co:443 "GET /read/1874258/respons-pdip-gerindra-dan-nasdem-soal-batas-usia-calon-kepala-daerah-putusan-ma HTTP/1.1" 200 None
+DEBUG:root:Article HTML: <!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+  <!-- tiktok pixel code -->
+<script>
+		!function (w, d, t) {
+		  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++
+)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+
+		  t...
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:36:49] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:41:49] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://nasional.tempo.co/read/1874258/respons-pdip-gerindra-dan-nasdem-soal-batas-usia-calon-kepala-daerah-putusan-ma
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): nasional.tempo.co:443
+DEBUG:urllib3.connectionpool:https://nasional.tempo.co:443 "GET /read/1874258/respons-pdip-gerindra-dan-nasdem-soal-batas-usia-calon-kepala-daerah-putusan-ma HTTP/1.1" 200 None
+DEBUG:root:Article HTML: <!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+  <!-- tiktok pixel code -->
+<script>
+		!function (w, d, t) {
+		  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++
+)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+
+		  t...
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:41:50] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:42:04] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://kumparan.com/kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kumparan.com:443
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1 HTTP/1.1" 301 119
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM HTTP/1.1" 200 None
+DEBUG:root:Article text: Lebih lanjut, IUPK (izin usaha pertambangan khusus) ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba....
+DEBUG:root:Processed text: lebih lanjut iupk izin usaha pertambangan khusus ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba ...
+DEBUG:root:Prediction result: real
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:42:05] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:45:16] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://kumparan.com/kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kumparan.com:443
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1 HTTP/1.1" 301 119
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM HTTP/1.1" 200 None
+DEBUG:root:Article text: Lebih lanjut, IUPK (izin usaha pertambangan khusus) ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba....
+DEBUG:root:Processed text: lebih lanjut iupk izin usaha pertambangan khusus ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba ...
+DEBUG:root:Prediction result: real
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:45:18] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:45:38] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://nasional.tempo.co/read/1874431/respons-kompak-pks-dan-demokrat-soal-putusan-ma-terkait-usia-calon-kepala-daerah?tracking_page_direct
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): nasional.tempo.co:443
+DEBUG:urllib3.connectionpool:https://nasional.tempo.co:443 "GET /read/1874431/respons-kompak-pks-dan-demokrat-soal-putusan-ma-terkait-usia-calon-kepala-daerah?tracking_page_direct HTTP/1.1" 200 None
+DEBUG:root:Article HTML: <!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+  <!-- tiktok pixel code -->
+<script>
+		!function (w, d, t) {
+		  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++
+)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+
+		  t...
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:45:39] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:45:52] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pns
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.detik.com:443
+DEBUG:urllib3.connectionpool:https://www.detik.com:443 "GET /properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pns HTTP/1.1" 200 None
+DEBUG:root:Article text: Pemerintah memberikan penjelasan mengenai tabungan perumahan (Tapera) yang belakangan heboh diperbincangkan. Kenapa saat ini Tapera juga diperuntukkan untuk semua Pekerja?
+
+Kepala Staf Kepresidenan Moeldoko menyebut, Tapera adalah program penyediaan perumahan yang dijalankan pemerintah yang juga merupakan lanjutan dari program Bapertarum.
+
+"Tapera itu sesungguhnya perpanjangan dari Bapertarum. Bapertarum ini dulu dikhususkan untuk ASN, sekarang diperluas ke pekerja mandiri dan swasta," ujar Moel...
+DEBUG:root:Processed text: pemerintah memberikan penjelasan mengenai tabungan perumahan tapera yang belakangan heboh diperbincangkan kenapa saat ini tapera juga diperuntukkan untuk semua pekerja kepala staf kepresidenan moeldoko menyebut tapera adalah program penyediaan perumahan yang dijalankan pemerintah yang juga merupakan lanjutan dari program bapertarum tapera itu sesungguhnya perpanjangan dari bapertarum bapertarum ini dulu dikhususkan untuk asn sekarang diperluas ke pekerja mandiri dan swasta ujar moeldoko dalam ko...
+DEBUG:root:Prediction result: fake
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:45:53] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:46:17] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://nasional.tempo.co/read/1874258/respons-pdip-gerindra-dan-nasdem-soal-batas-usia-calon-kepala-daerah-putusan-ma
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): nasional.tempo.co:443
+DEBUG:urllib3.connectionpool:https://nasional.tempo.co:443 "GET /read/1874258/respons-pdip-gerindra-dan-nasdem-soal-batas-usia-calon-kepala-daerah-putusan-ma HTTP/1.1" 200 None
+DEBUG:root:Article HTML: <!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+  <!-- tiktok pixel code -->
+<script>
+		!function (w, d, t) {
+		  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++
+)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+
+		  t...
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:46:18] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:48:27] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://nasional.tempo.co/read/1874258/respons-pdip-gerindra-dan-nasdem-soal-batas-usia-calon-kepala-daerah-putusan-ma
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): nasional.tempo.co:443
+DEBUG:urllib3.connectionpool:https://nasional.tempo.co:443 "GET /read/1874258/respons-pdip-gerindra-dan-nasdem-soal-batas-usia-calon-kepala-daerah-putusan-ma HTTP/1.1" 200 None
+DEBUG:root:Article HTML: <!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+  <!-- tiktok pixel code -->
+<script>
+		!function (w, d, t) {
+		  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++
+)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+
+		  t...
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:48:27] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:48:37] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received:  
+DEBUG:newspaper.article:Download failed on URL :/  because of No connection adapters were found for ':/ '
+ERROR:root:Failed to process article: Article `download()` failed with No connection adapters were found for ':/ ' on URL :/ 
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:48:37] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:51:14] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://nasional.tempo.co/read/1874428/projo-bentuk-desk-pilkada-untuk-dukung-calon-kepala-daerah-di-pilkada-2024?tracking_page_direct
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): nasional.tempo.co:443
+DEBUG:urllib3.connectionpool:https://nasional.tempo.co:443 "GET /read/1874428/projo-bentuk-desk-pilkada-untuk-dukung-calon-kepala-daerah-di-pilkada-2024?tracking_page_direct HTTP/1.1" 200 None
+DEBUG:root:Article HTML: <!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+  <!-- tiktok pixel code -->
+<script>
+		!function (w, d, t) {
+		  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++
+)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+
+		  t...
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:51:15] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:51:23] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pns
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.detik.com:443
+DEBUG:urllib3.connectionpool:https://www.detik.com:443 "GET /properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pns HTTP/1.1" 200 None
+DEBUG:root:Article text: Pemerintah memberikan penjelasan mengenai tabungan perumahan (Tapera) yang belakangan heboh diperbincangkan. Kenapa saat ini Tapera juga diperuntukkan untuk semua Pekerja?
+
+Kepala Staf Kepresidenan Moeldoko menyebut, Tapera adalah program penyediaan perumahan yang dijalankan pemerintah yang juga merupakan lanjutan dari program Bapertarum.
+
+"Tapera itu sesungguhnya perpanjangan dari Bapertarum. Bapertarum ini dulu dikhususkan untuk ASN, sekarang diperluas ke pekerja mandiri dan swasta," ujar Moel...
+DEBUG:root:Processed text: pemerintah memberikan penjelasan mengenai tabungan perumahan tapera yang belakangan heboh diperbincangkan kenapa saat ini tapera juga diperuntukkan untuk semua pekerja kepala staf kepresidenan moeldoko menyebut tapera adalah program penyediaan perumahan yang dijalankan pemerintah yang juga merupakan lanjutan dari program bapertarum tapera itu sesungguhnya perpanjangan dari bapertarum bapertarum ini dulu dikhususkan untuk asn sekarang diperluas ke pekerja mandiri dan swasta ujar moeldoko dalam ko...
+DEBUG:root:Hasil Prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:51:24] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:51:44] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pns
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.detik.com:443
+DEBUG:urllib3.connectionpool:https://www.detik.com:443 "GET /properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pns HTTP/1.1" 200 None
+DEBUG:root:Article text: Pemerintah memberikan penjelasan mengenai tabungan perumahan (Tapera) yang belakangan heboh diperbincangkan. Kenapa saat ini Tapera juga diperuntukkan untuk semua Pekerja?
+
+Kepala Staf Kepresidenan Moeldoko menyebut, Tapera adalah program penyediaan perumahan yang dijalankan pemerintah yang juga merupakan lanjutan dari program Bapertarum.
+
+"Tapera itu sesungguhnya perpanjangan dari Bapertarum. Bapertarum ini dulu dikhususkan untuk ASN, sekarang diperluas ke pekerja mandiri dan swasta," ujar Moel...
+DEBUG:root:Processed text: pemerintah memberikan penjelasan mengenai tabungan perumahan tapera yang belakangan heboh diperbincangkan kenapa saat ini tapera juga diperuntukkan untuk semua pekerja kepala staf kepresidenan moeldoko menyebut tapera adalah program penyediaan perumahan yang dijalankan pemerintah yang juga merupakan lanjutan dari program bapertarum tapera itu sesungguhnya perpanjangan dari bapertarum bapertarum ini dulu dikhususkan untuk asn sekarang diperluas ke pekerja mandiri dan swasta ujar moeldoko dalam ko...
+DEBUG:root:Hasil Prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:51:44] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:52:02] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pns
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.detik.com:443
+DEBUG:urllib3.connectionpool:https://www.detik.com:443 "GET /properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pns HTTP/1.1" 200 None
+DEBUG:root:Article text: Pemerintah memberikan penjelasan mengenai tabungan perumahan (Tapera) yang belakangan heboh diperbincangkan. Kenapa saat ini Tapera juga diperuntukkan untuk semua Pekerja?
+
+Kepala Staf Kepresidenan Moeldoko menyebut, Tapera adalah program penyediaan perumahan yang dijalankan pemerintah yang juga merupakan lanjutan dari program Bapertarum.
+
+"Tapera itu sesungguhnya perpanjangan dari Bapertarum. Bapertarum ini dulu dikhususkan untuk ASN, sekarang diperluas ke pekerja mandiri dan swasta," ujar Moel...
+DEBUG:root:Processed text: pemerintah memberikan penjelasan mengenai tabungan perumahan tapera yang belakangan heboh diperbincangkan kenapa saat ini tapera juga diperuntukkan untuk semua pekerja kepala staf kepresidenan moeldoko menyebut tapera adalah program penyediaan perumahan yang dijalankan pemerintah yang juga merupakan lanjutan dari program bapertarum tapera itu sesungguhnya perpanjangan dari bapertarum bapertarum ini dulu dikhususkan untuk asn sekarang diperluas ke pekerja mandiri dan swasta ujar moeldoko dalam ko...
+DEBUG:root:Hasil Prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:52:03] "POST /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pns
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.detik.com:443
+DEBUG:urllib3.connectionpool:https://www.detik.com:443 "GET /properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pns HTTP/1.1" 200 None
+DEBUG:root:Article text: Pemerintah memberikan penjelasan mengenai tabungan perumahan (Tapera) yang belakangan heboh diperbincangkan. Kenapa saat ini Tapera juga diperuntukkan untuk semua Pekerja?
+
+Kepala Staf Kepresidenan Moeldoko menyebut, Tapera adalah program penyediaan perumahan yang dijalankan pemerintah yang juga merupakan lanjutan dari program Bapertarum.
+
+"Tapera itu sesungguhnya perpanjangan dari Bapertarum. Bapertarum ini dulu dikhususkan untuk ASN, sekarang diperluas ke pekerja mandiri dan swasta," ujar Moel...
+DEBUG:root:Processed text: pemerintah memberikan penjelasan mengenai tabungan perumahan tapera yang belakangan heboh diperbincangkan kenapa saat ini tapera juga diperuntukkan untuk semua pekerja kepala staf kepresidenan moeldoko menyebut tapera adalah program penyediaan perumahan yang dijalankan pemerintah yang juga merupakan lanjutan dari program bapertarum tapera itu sesungguhnya perpanjangan dari bapertarum bapertarum ini dulu dikhususkan untuk asn sekarang diperluas ke pekerja mandiri dan swasta ujar moeldoko dalam ko...
+DEBUG:root:Hasil Prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:52:07] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:52:13] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pns
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.detik.com:443
+DEBUG:urllib3.connectionpool:https://www.detik.com:443 "GET /properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pns HTTP/1.1" 200 None
+DEBUG:root:Article text: Pemerintah memberikan penjelasan mengenai tabungan perumahan (Tapera) yang belakangan heboh diperbincangkan. Kenapa saat ini Tapera juga diperuntukkan untuk semua Pekerja?
+
+Kepala Staf Kepresidenan Moeldoko menyebut, Tapera adalah program penyediaan perumahan yang dijalankan pemerintah yang juga merupakan lanjutan dari program Bapertarum.
+
+"Tapera itu sesungguhnya perpanjangan dari Bapertarum. Bapertarum ini dulu dikhususkan untuk ASN, sekarang diperluas ke pekerja mandiri dan swasta," ujar Moel...
+DEBUG:root:Processed text: pemerintah memberikan penjelasan mengenai tabungan perumahan tapera yang belakangan heboh diperbincangkan kenapa saat ini tapera juga diperuntukkan untuk semua pekerja kepala staf kepresidenan moeldoko menyebut tapera adalah program penyediaan perumahan yang dijalankan pemerintah yang juga merupakan lanjutan dari program bapertarum tapera itu sesungguhnya perpanjangan dari bapertarum bapertarum ini dulu dikhususkan untuk asn sekarang diperluas ke pekerja mandiri dan swasta ujar moeldoko dalam ko...
+DEBUG:root:Hasil Prediksi: Hoaks   
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:52:14] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:52:24] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://kumparan.com/kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kumparan.com:443
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1 HTTP/1.1" 301 119
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM HTTP/1.1" 200 None
+DEBUG:root:Article text: Lebih lanjut, IUPK (izin usaha pertambangan khusus) ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba....
+DEBUG:root:Processed text: lebih lanjut iupk izin usaha pertambangan khusus ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba ...
+DEBUG:root:Hasil Prediksi: Asli
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:52:24] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:52:34] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://kumparan.com/kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kumparan.com:443
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1 HTTP/1.1" 301 119
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM HTTP/1.1" 200 None
+DEBUG:root:Article text: Lebih lanjut, IUPK (izin usaha pertambangan khusus) ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba....
+DEBUG:root:Processed text: lebih lanjut iupk izin usaha pertambangan khusus ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba ...
+DEBUG:root:Hasil Prediksi: Asli
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:52:35] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:53:42] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://kumparan.com/kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kumparan.com:443
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1 HTTP/1.1" 301 119
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM HTTP/1.1" 200 None
+DEBUG:root:Article text: Lebih lanjut, IUPK (izin usaha pertambangan khusus) ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba....
+DEBUG:root:Processed text: lebih lanjut iupk izin usaha pertambangan khusus ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba ...
+DEBUG:root:Hasil Prediksi: Asli
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:53:43] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:54:27] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://kumparan.com/kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kumparan.com:443
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1 HTTP/1.1" 301 119
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM HTTP/1.1" 200 None
+DEBUG:root:Article text: Lebih lanjut, IUPK (izin usaha pertambangan khusus) ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba....
+DEBUG:root:Processed text: lebih lanjut iupk izin usaha pertambangan khusus ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba ...
+DEBUG:root:Hasil Prediksi: Asli
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:54:27] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:55:23] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pns
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.detik.com:443
+DEBUG:urllib3.connectionpool:https://www.detik.com:443 "GET /properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pns HTTP/1.1" 200 None
+DEBUG:root:Article text: Pemerintah memberikan penjelasan mengenai tabungan perumahan (Tapera) yang belakangan heboh diperbincangkan. Kenapa saat ini Tapera juga diperuntukkan untuk semua Pekerja?
+
+Kepala Staf Kepresidenan Moeldoko menyebut, Tapera adalah program penyediaan perumahan yang dijalankan pemerintah yang juga merupakan lanjutan dari program Bapertarum.
+
+"Tapera itu sesungguhnya perpanjangan dari Bapertarum. Bapertarum ini dulu dikhususkan untuk ASN, sekarang diperluas ke pekerja mandiri dan swasta," ujar Moel...
+DEBUG:root:Processed text: pemerintah memberikan penjelasan mengenai tabungan perumahan tapera yang belakangan heboh diperbincangkan kenapa saat ini tapera juga diperuntukkan untuk semua pekerja kepala staf kepresidenan moeldoko menyebut tapera adalah program penyediaan perumahan yang dijalankan pemerintah yang juga merupakan lanjutan dari program bapertarum tapera itu sesungguhnya perpanjangan dari bapertarum bapertarum ini dulu dikhususkan untuk asn sekarang diperluas ke pekerja mandiri dan swasta ujar moeldoko dalam ko...
+DEBUG:root:Hasil Prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:55:24] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:55:34] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://nasional.tempo.co/read/1874428/projo-bentuk-desk-pilkada-untuk-dukung-calon-kepala-daerah-di-pilkada-2024?tracking_page_direct
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): nasional.tempo.co:443
+DEBUG:urllib3.connectionpool:https://nasional.tempo.co:443 "GET /read/1874428/projo-bentuk-desk-pilkada-untuk-dukung-calon-kepala-daerah-di-pilkada-2024?tracking_page_direct HTTP/1.1" 200 None
+DEBUG:root:Article HTML: <!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+  <!-- tiktok pixel code -->
+<script>
+		!function (w, d, t) {
+		  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++
+)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+
+		  t...
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:55:35] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:55:44] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://kumparan.com/kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kumparan.com:443
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1 HTTP/1.1" 301 119
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM HTTP/1.1" 200 None
+DEBUG:root:Article text: Lebih lanjut, IUPK (izin usaha pertambangan khusus) ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba....
+DEBUG:root:Processed text: lebih lanjut iupk izin usaha pertambangan khusus ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba ...
+DEBUG:root:Hasil Prediksi: Asli
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:55:45] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:56:50] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://kumparan.com/kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kumparan.com:443
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1 HTTP/1.1" 301 119
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM HTTP/1.1" 200 None
+DEBUG:root:Article text: Lebih lanjut, IUPK (izin usaha pertambangan khusus) ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba....
+DEBUG:root:Processed text: lebih lanjut iupk izin usaha pertambangan khusus ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba ...
+DEBUG:root:Prediction result: Asli
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:56:50] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:57:45] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://kumparan.com/kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kumparan.com:443
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1 HTTP/1.1" 301 119
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM HTTP/1.1" 200 None
+DEBUG:root:Article text: Lebih lanjut, IUPK (izin usaha pertambangan khusus) ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba....
+DEBUG:root:Processed text: lebih lanjut iupk izin usaha pertambangan khusus ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba ...
+DEBUG:root:Hasil prediksi: Asli
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:57:46] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:59:05] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://kumparan.com/kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kumparan.com:443
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1 HTTP/1.1" 301 119
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM HTTP/1.1" 200 None
+DEBUG:root:Article text: Lebih lanjut, IUPK (izin usaha pertambangan khusus) ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba....
+DEBUG:root:Processed text: lebih lanjut iupk izin usaha pertambangan khusus ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba ...
+DEBUG:root:Hasil prediksi: Asli
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 17:59:12] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:00:16] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.cnnindonesia.com/nasional/20240531093107-12-1104067/mabes-polri-buka-suara-soal-2-dpo-kasus-vina-cirebon-dihapus-polda
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cnnindonesia.com:443
+DEBUG:urllib3.connectionpool:https://www.cnnindonesia.com:443 "GET /nasional/20240531093107-12-1104067/mabes-polri-buka-suara-soal-2-dpo-kasus-vina-cirebon-dihapus-polda HTTP/1.1" 200 None
+DEBUG:root:Article text: --
+
+Mabes Polri buka suara terkait penghapusan dua buron atau Daftar Pencarian Orang (DPO) atas nama Dani dan Andi di kasus pembunuhan pasangan Vina dan Eki yang terjadi pada 2016 silam.
+
+Pada 26 Mei lalu, Polda Jabar mengatakan DPO kasus pembunuhan itu semula dari tiga, kini jadi hanya satu yakni Pegi Setiawan yang telah ditangkap dan dijadikan tersangka. Adapun 2 DPO lain telah dihapus dari daftar pencarian, karena dinilai tidak ada.
+
+ADVERTISEMENT SCROLL TO CONTINUE WITH CONTENT
+
+Kadiv Humas ...
+DEBUG:root:Processed text:  mabes polri buka suara terkait penghapusan dua buron atau daftar pencarian orang dpo atas nama dani dan andi di kasus pembunuhan pasangan vina dan eki yang terjadi pada 2016 silam pada 26 mei lalu polda jabar mengatakan dpo kasus pembunuhan itu semula dari tiga kini jadi hanya satu yakni pegi setiawan yang telah ditangkap dan dijadikan tersangka adapun 2 dpo lain telah dihapus dari daftar pencarian karena dinilai tidak ada advertisement scroll to continue with content kadiv humas polri irjen po...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:00:17] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:04:34] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.cnnindonesia.com/nasional/20240531093107-12-1104067/mabes-polri-buka-suara-soal-2-dpo-kasus-vina-cirebon-dihapus-polda
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cnnindonesia.com:443
+DEBUG:urllib3.connectionpool:https://www.cnnindonesia.com:443 "GET /nasional/20240531093107-12-1104067/mabes-polri-buka-suara-soal-2-dpo-kasus-vina-cirebon-dihapus-polda HTTP/1.1" 200 None
+DEBUG:root:Article text: --
+
+Mabes Polri buka suara terkait penghapusan dua buron atau Daftar Pencarian Orang (DPO) atas nama Dani dan Andi di kasus pembunuhan pasangan Vina dan Eki yang terjadi pada 2016 silam.
+
+Pada 26 Mei lalu, Polda Jabar mengatakan DPO kasus pembunuhan itu semula dari tiga, kini jadi hanya satu yakni Pegi Setiawan yang telah ditangkap dan dijadikan tersangka. Adapun 2 DPO lain telah dihapus dari daftar pencarian, karena dinilai tidak ada.
+
+ADVERTISEMENT SCROLL TO CONTINUE WITH CONTENT
+
+Kadiv Humas ...
+DEBUG:root:Processed text:  mabes polri buka suara terkait penghapusan dua buron atau daftar pencarian orang dpo atas nama dani dan andi di kasus pembunuhan pasangan vina dan eki yang terjadi pada 2016 silam pada 26 mei lalu polda jabar mengatakan dpo kasus pembunuhan itu semula dari tiga kini jadi hanya satu yakni pegi setiawan yang telah ditangkap dan dijadikan tersangka adapun 2 dpo lain telah dihapus dari daftar pencarian karena dinilai tidak ada advertisement scroll to continue with content kadiv humas polri irjen po...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:04:34] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:06:26] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://kumparan.com/kumparannews/cek-data-syarat-usia-kepala-daerah-diputus-ma-3-hari-biasanya-perlu-1-bulan-22qY00xI1MI/1
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kumparan.com:443
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparannews/cek-data-syarat-usia-kepala-daerah-diputus-ma-3-hari-biasanya-perlu-1-bulan-22qY00xI1MI/1 HTTP/1.1" 301 135
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparannews/cek-data-syarat-usia-kepala-daerah-diputus-ma-3-hari-biasanya-perlu-1-bulan-22qY00xI1MI HTTP/1.1" 200 None
+DEBUG:root:Article text: Dalam data di atas, ada beberapa perkara yang diputus lumayan singkat seperti putusan 4 P/HUM/2024. Namun, putusan mengenai aturan dirjen pajak tersebut memerlukan waktu 15 hari. Ini lima kali lebih lama daripada putusan tentang usia kepala daerah yang cuma 3 hari....
+DEBUG:root:Processed text: dalam data di atas ada beberapa perkara yang diputus lumayan singkat seperti putusan 4 p hum 2024 namun putusan mengenai aturan dirjen pajak tersebut memerlukan waktu 15 hari ini lima kali lebih lama daripada putusan tentang usia kepala daerah yang cuma 3 hari ...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:06:27] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:06:32] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://kumparan.com/kumparannews/cek-data-syarat-usia-kepala-daerah-diputus-ma-3-hari-biasanya-perlu-1-bulan-22qY00xI1MI/1
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kumparan.com:443
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparannews/cek-data-syarat-usia-kepala-daerah-diputus-ma-3-hari-biasanya-perlu-1-bulan-22qY00xI1MI/1 HTTP/1.1" 301 135
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparannews/cek-data-syarat-usia-kepala-daerah-diputus-ma-3-hari-biasanya-perlu-1-bulan-22qY00xI1MI HTTP/1.1" 200 None
+DEBUG:root:Article text: Dalam data di atas, ada beberapa perkara yang diputus lumayan singkat seperti putusan 4 P/HUM/2024. Namun, putusan mengenai aturan dirjen pajak tersebut memerlukan waktu 15 hari. Ini lima kali lebih lama daripada putusan tentang usia kepala daerah yang cuma 3 hari....
+DEBUG:root:Processed text: dalam data di atas ada beberapa perkara yang diputus lumayan singkat seperti putusan 4 p hum 2024 namun putusan mengenai aturan dirjen pajak tersebut memerlukan waktu 15 hari ini lima kali lebih lama daripada putusan tentang usia kepala daerah yang cuma 3 hari ...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:06:33] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:08:28] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://kumparan.com/kumparannews/cek-data-syarat-usia-kepala-daerah-diputus-ma-3-hari-biasanya-perlu-1-bulan-22qY00xI1MI/1
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kumparan.com:443
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparannews/cek-data-syarat-usia-kepala-daerah-diputus-ma-3-hari-biasanya-perlu-1-bulan-22qY00xI1MI/1 HTTP/1.1" 301 135
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparannews/cek-data-syarat-usia-kepala-daerah-diputus-ma-3-hari-biasanya-perlu-1-bulan-22qY00xI1MI HTTP/1.1" 200 None
+DEBUG:root:Article text: Dalam data di atas, ada beberapa perkara yang diputus lumayan singkat seperti putusan 4 P/HUM/2024. Namun, putusan mengenai aturan dirjen pajak tersebut memerlukan waktu 15 hari. Ini lima kali lebih lama daripada putusan tentang usia kepala daerah yang cuma 3 hari....
+DEBUG:root:Processed text: dalam data di atas ada beberapa perkara yang diputus lumayan singkat seperti putusan 4 p hum 2024 namun putusan mengenai aturan dirjen pajak tersebut memerlukan waktu 15 hari ini lima kali lebih lama daripada putusan tentang usia kepala daerah yang cuma 3 hari ...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:08:29] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\train_model.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\train_model.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\train_model.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:15:49] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.cnnindonesia.com/nasional/20240531093107-12-1104067/mabes-polri-buka-suara-soal-2-dpo-kasus-vina-cirebon-dihapus-polda
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cnnindonesia.com:443
+DEBUG:urllib3.connectionpool:https://www.cnnindonesia.com:443 "GET /nasional/20240531093107-12-1104067/mabes-polri-buka-suara-soal-2-dpo-kasus-vina-cirebon-dihapus-polda HTTP/1.1" 200 None
+DEBUG:root:Article text: --
+
+Mabes Polri buka suara terkait penghapusan dua buron atau Daftar Pencarian Orang (DPO) atas nama Dani dan Andi di kasus pembunuhan pasangan Vina dan Eki yang terjadi pada 2016 silam.
+
+Pada 26 Mei lalu, Polda Jabar mengatakan DPO kasus pembunuhan itu semula dari tiga, kini jadi hanya satu yakni Pegi Setiawan yang telah ditangkap dan dijadikan tersangka. Adapun 2 DPO lain telah dihapus dari daftar pencarian, karena dinilai tidak ada.
+
+ADVERTISEMENT SCROLL TO CONTINUE WITH CONTENT
+
+Kadiv Humas ...
+DEBUG:root:Processed text:  mabes polri buka suara terkait penghapusan dua buron atau daftar pencarian orang dpo atas nama dani dan andi di kasus pembunuhan pasangan vina dan eki yang terjadi pada 2016 silam pada 26 mei lalu polda jabar mengatakan dpo kasus pembunuhan itu semula dari tiga kini jadi hanya satu yakni pegi setiawan yang telah ditangkap dan dijadikan tersangka adapun 2 dpo lain telah dihapus dari daftar pencarian karena dinilai tidak ada advertisement scroll to continue with content kadiv humas polri irjen po...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:15:50] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:16:09] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.detik.com/properti/berita/d-7367472/bp-tapera-bicara-penabung-mulia-wajib-ikut-tapera-gaji-di-atas-rp-8-juta
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.detik.com:443
+DEBUG:urllib3.connectionpool:https://www.detik.com:443 "GET /properti/berita/d-7367472/bp-tapera-bicara-penabung-mulia-wajib-ikut-tapera-gaji-di-atas-rp-8-juta HTTP/1.1" 200 None
+DEBUG:root:Article text: BP Tapera menjelaskan polemik tabungan perumahan (Tapera) yang memotong gaji para pekerja di atas UMR dan manfaatnya hanya dinikmati oleh masyarakat berpenghasilan rendah (MBR). Salah satu pertanyaan yang kerap muncul adalah manfaat apa yang didapat pekerja non MBR?
+
+Dalam aturan BP Tapera, MBR adalah mereka yang bergaji maksimum Rp 8 juta per bulan dan Rp 10 juta per bulan (khusus wilayah Papua dan Papua Barat). Komisioner BP Tapera Heru Pudyo Nugroho menyebut, pekerja non MBR dan tetap menjadi...
+DEBUG:root:Processed text: bp tapera menjelaskan polemik tabungan perumahan tapera yang memotong gaji para pekerja di atas umr dan manfaatnya hanya dinikmati oleh masyarakat berpenghasilan rendah mbr salah satu pertanyaan yang kerap muncul adalah manfaat apa yang didapat pekerja non mbr dalam aturan bp tapera mbr adalah mereka yang bergaji maksimum rp 8 juta per bulan dan rp 10 juta per bulan khusus wilayah papua dan papua barat komisioner bp tapera heru pudyo nugroho menyebut pekerja non mbr dan tetap menjadi peserta tap...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:16:10] "POST /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.detik.com/properti/berita/d-7367472/bp-tapera-bicara-penabung-mulia-wajib-ikut-tapera-gaji-di-atas-rp-8-juta
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.detik.com:443
+DEBUG:urllib3.connectionpool:https://www.detik.com:443 "GET /properti/berita/d-7367472/bp-tapera-bicara-penabung-mulia-wajib-ikut-tapera-gaji-di-atas-rp-8-juta HTTP/1.1" 200 None
+DEBUG:root:Article text: BP Tapera menjelaskan polemik tabungan perumahan (Tapera) yang memotong gaji para pekerja di atas UMR dan manfaatnya hanya dinikmati oleh masyarakat berpenghasilan rendah (MBR). Salah satu pertanyaan yang kerap muncul adalah manfaat apa yang didapat pekerja non MBR?
+
+Dalam aturan BP Tapera, MBR adalah mereka yang bergaji maksimum Rp 8 juta per bulan dan Rp 10 juta per bulan (khusus wilayah Papua dan Papua Barat). Komisioner BP Tapera Heru Pudyo Nugroho menyebut, pekerja non MBR dan tetap menjadi...
+DEBUG:root:Processed text: bp tapera menjelaskan polemik tabungan perumahan tapera yang memotong gaji para pekerja di atas umr dan manfaatnya hanya dinikmati oleh masyarakat berpenghasilan rendah mbr salah satu pertanyaan yang kerap muncul adalah manfaat apa yang didapat pekerja non mbr dalam aturan bp tapera mbr adalah mereka yang bergaji maksimum rp 8 juta per bulan dan rp 10 juta per bulan khusus wilayah papua dan papua barat komisioner bp tapera heru pudyo nugroho menyebut pekerja non mbr dan tetap menjadi peserta tap...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:16:12] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:16:15] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.detik.com/properti/berita/d-7367472/bp-tapera-bicara-penabung-mulia-wajib-ikut-tapera-gaji-di-atas-rp-8-juta
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.detik.com:443
+DEBUG:urllib3.connectionpool:https://www.detik.com:443 "GET /properti/berita/d-7367472/bp-tapera-bicara-penabung-mulia-wajib-ikut-tapera-gaji-di-atas-rp-8-juta HTTP/1.1" 200 None
+DEBUG:root:Article text: BP Tapera menjelaskan polemik tabungan perumahan (Tapera) yang memotong gaji para pekerja di atas UMR dan manfaatnya hanya dinikmati oleh masyarakat berpenghasilan rendah (MBR). Salah satu pertanyaan yang kerap muncul adalah manfaat apa yang didapat pekerja non MBR?
+
+Dalam aturan BP Tapera, MBR adalah mereka yang bergaji maksimum Rp 8 juta per bulan dan Rp 10 juta per bulan (khusus wilayah Papua dan Papua Barat). Komisioner BP Tapera Heru Pudyo Nugroho menyebut, pekerja non MBR dan tetap menjadi...
+DEBUG:root:Processed text: bp tapera menjelaskan polemik tabungan perumahan tapera yang memotong gaji para pekerja di atas umr dan manfaatnya hanya dinikmati oleh masyarakat berpenghasilan rendah mbr salah satu pertanyaan yang kerap muncul adalah manfaat apa yang didapat pekerja non mbr dalam aturan bp tapera mbr adalah mereka yang bergaji maksimum rp 8 juta per bulan dan rp 10 juta per bulan khusus wilayah papua dan papua barat komisioner bp tapera heru pudyo nugroho menyebut pekerja non mbr dan tetap menjadi peserta tap...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:16:15] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:16:36] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://tirto.id/konsulat-ri-22-wni-dibebaskan-sopir-dan-pemilik-bus-ditahan-gY9Z
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tirto.id:443
+DEBUG:urllib3.connectionpool:https://tirto.id:443 "GET /konsulat-ri-22-wni-dibebaskan-sopir-dan-pemilik-bus-ditahan-gY9Z HTTP/1.1" 200 None
+DEBUG:root:Article text: tirto.id - Sebanyak 22 WNI yang ditangkap di Madinah, Arab Saudi pada Rabu (22/5/2024) kemarin sudah dibebaskan usai diperiksa otoritas kejaksaan setempat. Sementara 2 orang sisanya masih ditahan, yakni sopir dan pemilik bus.
+
+Mereka ditangkap Selasa, 28 Mei 2024, saat berada di miqat Masjid Bir Ali Kota Madinah sedang memakai baju ihram. Berdasar pemeriksaan aparat keamanan intel (Apkam) Arab Saudi, koordinator jemaah tersebut menyerahkan contoh visa haji milik orang lain.
+
+"Visa tidak sesuai d...
+DEBUG:root:Processed text: tirto id sebanyak 22 wni yang ditangkap di madinah arab saudi pada rabu 22 5 2024 kemarin sudah dibebaskan usai diperiksa otoritas kejaksaan setempat sementara 2 orang sisanya masih ditahan yakni sopir dan pemilik bus mereka ditangkap selasa 28 mei 2024 saat berada di miqat masjid bir ali kota madinah sedang memakai baju ihram berdasar pemeriksaan aparat keamanan intel apkam arab saudi koordinator jemaah tersebut menyerahkan contoh visa haji milik orang lain visa tidak sesuai dengan paspor setel...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:16:37] "POST /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://tirto.id/konsulat-ri-22-wni-dibebaskan-sopir-dan-pemilik-bus-ditahan-gY9Z
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tirto.id:443
+DEBUG:root:URL received: https://tirto.id/konsulat-ri-22-wni-dibebaskan-sopir-dan-pemilik-bus-ditahan-gY9Z
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tirto.id:443
+DEBUG:urllib3.connectionpool:https://tirto.id:443 "GET /konsulat-ri-22-wni-dibebaskan-sopir-dan-pemilik-bus-ditahan-gY9Z HTTP/1.1" 200 None
+DEBUG:root:URL received: https://tirto.id/konsulat-ri-22-wni-dibebaskan-sopir-dan-pemilik-bus-ditahan-gY9Z
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tirto.id:443
+DEBUG:urllib3.connectionpool:https://tirto.id:443 "GET /konsulat-ri-22-wni-dibebaskan-sopir-dan-pemilik-bus-ditahan-gY9Z HTTP/1.1" 200 None
+DEBUG:root:URL received: https://tirto.id/konsulat-ri-22-wni-dibebaskan-sopir-dan-pemilik-bus-ditahan-gY9Z
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tirto.id:443
+DEBUG:urllib3.connectionpool:https://tirto.id:443 "GET /konsulat-ri-22-wni-dibebaskan-sopir-dan-pemilik-bus-ditahan-gY9Z HTTP/1.1" 200 None
+DEBUG:root:Article text: tirto.id - Sebanyak 22 WNI yang ditangkap di Madinah, Arab Saudi pada Rabu (22/5/2024) kemarin sudah dibebaskan usai diperiksa otoritas kejaksaan setempat. Sementara 2 orang sisanya masih ditahan, yakni sopir dan pemilik bus.
+
+Mereka ditangkap Selasa, 28 Mei 2024, saat berada di miqat Masjid Bir Ali Kota Madinah sedang memakai baju ihram. Berdasar pemeriksaan aparat keamanan intel (Apkam) Arab Saudi, koordinator jemaah tersebut menyerahkan contoh visa haji milik orang lain.
+
+"Visa tidak sesuai d...
+DEBUG:root:Processed text: tirto id sebanyak 22 wni yang ditangkap di madinah arab saudi pada rabu 22 5 2024 kemarin sudah dibebaskan usai diperiksa otoritas kejaksaan setempat sementara 2 orang sisanya masih ditahan yakni sopir dan pemilik bus mereka ditangkap selasa 28 mei 2024 saat berada di miqat masjid bir ali kota madinah sedang memakai baju ihram berdasar pemeriksaan aparat keamanan intel apkam arab saudi koordinator jemaah tersebut menyerahkan contoh visa haji milik orang lain visa tidak sesuai dengan paspor setel...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:16:39] "POST /predict HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://tirto.id:443 "GET /konsulat-ri-22-wni-dibebaskan-sopir-dan-pemilik-bus-ditahan-gY9Z HTTP/1.1" 200 None
+DEBUG:root:Article text: tirto.id - Sebanyak 22 WNI yang ditangkap di Madinah, Arab Saudi pada Rabu (22/5/2024) kemarin sudah dibebaskan usai diperiksa otoritas kejaksaan setempat. Sementara 2 orang sisanya masih ditahan, yakni sopir dan pemilik bus.
+
+Mereka ditangkap Selasa, 28 Mei 2024, saat berada di miqat Masjid Bir Ali Kota Madinah sedang memakai baju ihram. Berdasar pemeriksaan aparat keamanan intel (Apkam) Arab Saudi, koordinator jemaah tersebut menyerahkan contoh visa haji milik orang lain.
+
+"Visa tidak sesuai d...
+DEBUG:root:Processed text: tirto id sebanyak 22 wni yang ditangkap di madinah arab saudi pada rabu 22 5 2024 kemarin sudah dibebaskan usai diperiksa otoritas kejaksaan setempat sementara 2 orang sisanya masih ditahan yakni sopir dan pemilik bus mereka ditangkap selasa 28 mei 2024 saat berada di miqat masjid bir ali kota madinah sedang memakai baju ihram berdasar pemeriksaan aparat keamanan intel apkam arab saudi koordinator jemaah tersebut menyerahkan contoh visa haji milik orang lain visa tidak sesuai dengan paspor setel...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:16:39] "POST /predict HTTP/1.1" 200 -
+DEBUG:root:Article text: tirto.id - Sebanyak 22 WNI yang ditangkap di Madinah, Arab Saudi pada Rabu (22/5/2024) kemarin sudah dibebaskan usai diperiksa otoritas kejaksaan setempat. Sementara 2 orang sisanya masih ditahan, yakni sopir dan pemilik bus.
+
+Mereka ditangkap Selasa, 28 Mei 2024, saat berada di miqat Masjid Bir Ali Kota Madinah sedang memakai baju ihram. Berdasar pemeriksaan aparat keamanan intel (Apkam) Arab Saudi, koordinator jemaah tersebut menyerahkan contoh visa haji milik orang lain.
+
+"Visa tidak sesuai d...
+DEBUG:root:Processed text: tirto id sebanyak 22 wni yang ditangkap di madinah arab saudi pada rabu 22 5 2024 kemarin sudah dibebaskan usai diperiksa otoritas kejaksaan setempat sementara 2 orang sisanya masih ditahan yakni sopir dan pemilik bus mereka ditangkap selasa 28 mei 2024 saat berada di miqat masjid bir ali kota madinah sedang memakai baju ihram berdasar pemeriksaan aparat keamanan intel apkam arab saudi koordinator jemaah tersebut menyerahkan contoh visa haji milik orang lain visa tidak sesuai dengan paspor setel...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:16:39] "POST /predict HTTP/1.1" 200 -
+DEBUG:root:Article text: tirto.id - Sebanyak 22 WNI yang ditangkap di Madinah, Arab Saudi pada Rabu (22/5/2024) kemarin sudah dibebaskan usai diperiksa otoritas kejaksaan setempat. Sementara 2 orang sisanya masih ditahan, yakni sopir dan pemilik bus.
+
+Mereka ditangkap Selasa, 28 Mei 2024, saat berada di miqat Masjid Bir Ali Kota Madinah sedang memakai baju ihram. Berdasar pemeriksaan aparat keamanan intel (Apkam) Arab Saudi, koordinator jemaah tersebut menyerahkan contoh visa haji milik orang lain.
+
+"Visa tidak sesuai d...
+DEBUG:root:Processed text: tirto id sebanyak 22 wni yang ditangkap di madinah arab saudi pada rabu 22 5 2024 kemarin sudah dibebaskan usai diperiksa otoritas kejaksaan setempat sementara 2 orang sisanya masih ditahan yakni sopir dan pemilik bus mereka ditangkap selasa 28 mei 2024 saat berada di miqat masjid bir ali kota madinah sedang memakai baju ihram berdasar pemeriksaan aparat keamanan intel apkam arab saudi koordinator jemaah tersebut menyerahkan contoh visa haji milik orang lain visa tidak sesuai dengan paspor setel...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:16:39] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:16:45] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://kumparan.com/kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kumparan.com:443
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1 HTTP/1.1" 301 119
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM HTTP/1.1" 200 None
+DEBUG:root:Article text: Lebih lanjut, IUPK (izin usaha pertambangan khusus) ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba....
+DEBUG:root:Processed text: lebih lanjut iupk izin usaha pertambangan khusus ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba ...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:16:46] "POST /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://kumparan.com/kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kumparan.com:443
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1 HTTP/1.1" 301 119
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM HTTP/1.1" 200 None
+DEBUG:root:Article text: Lebih lanjut, IUPK (izin usaha pertambangan khusus) ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba....
+DEBUG:root:Processed text: lebih lanjut iupk izin usaha pertambangan khusus ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba ...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:16:48] "POST /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://kumparan.com/kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kumparan.com:443
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1 HTTP/1.1" 301 119
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM HTTP/1.1" 200 None
+DEBUG:root:Article text: Lebih lanjut, IUPK (izin usaha pertambangan khusus) ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba....
+DEBUG:root:Processed text: lebih lanjut iupk izin usaha pertambangan khusus ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba ...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:16:49] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:16:58] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pns
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.detik.com:443
+DEBUG:urllib3.connectionpool:https://www.detik.com:443 "GET /properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pns HTTP/1.1" 200 None
+DEBUG:root:Article text: Pemerintah memberikan penjelasan mengenai tabungan perumahan (Tapera) yang belakangan heboh diperbincangkan. Kenapa saat ini Tapera juga diperuntukkan untuk semua Pekerja?
+
+Kepala Staf Kepresidenan Moeldoko menyebut, Tapera adalah program penyediaan perumahan yang dijalankan pemerintah yang juga merupakan lanjutan dari program Bapertarum.
+
+"Tapera itu sesungguhnya perpanjangan dari Bapertarum. Bapertarum ini dulu dikhususkan untuk ASN, sekarang diperluas ke pekerja mandiri dan swasta," ujar Moel...
+DEBUG:root:Processed text: pemerintah memberikan penjelasan mengenai tabungan perumahan tapera yang belakangan heboh diperbincangkan kenapa saat ini tapera juga diperuntukkan untuk semua pekerja kepala staf kepresidenan moeldoko menyebut tapera adalah program penyediaan perumahan yang dijalankan pemerintah yang juga merupakan lanjutan dari program bapertarum tapera itu sesungguhnya perpanjangan dari bapertarum bapertarum ini dulu dikhususkan untuk asn sekarang diperluas ke pekerja mandiri dan swasta ujar moeldoko dalam ko...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:16:59] "POST /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pns
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.detik.com:443
+DEBUG:urllib3.connectionpool:https://www.detik.com:443 "GET /properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pns HTTP/1.1" 200 None
+DEBUG:root:Article text: Pemerintah memberikan penjelasan mengenai tabungan perumahan (Tapera) yang belakangan heboh diperbincangkan. Kenapa saat ini Tapera juga diperuntukkan untuk semua Pekerja?
+
+Kepala Staf Kepresidenan Moeldoko menyebut, Tapera adalah program penyediaan perumahan yang dijalankan pemerintah yang juga merupakan lanjutan dari program Bapertarum.
+
+"Tapera itu sesungguhnya perpanjangan dari Bapertarum. Bapertarum ini dulu dikhususkan untuk ASN, sekarang diperluas ke pekerja mandiri dan swasta," ujar Moel...
+DEBUG:root:Processed text: pemerintah memberikan penjelasan mengenai tabungan perumahan tapera yang belakangan heboh diperbincangkan kenapa saat ini tapera juga diperuntukkan untuk semua pekerja kepala staf kepresidenan moeldoko menyebut tapera adalah program penyediaan perumahan yang dijalankan pemerintah yang juga merupakan lanjutan dari program bapertarum tapera itu sesungguhnya perpanjangan dari bapertarum bapertarum ini dulu dikhususkan untuk asn sekarang diperluas ke pekerja mandiri dan swasta ujar moeldoko dalam ko...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:17:00] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:17:15] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.kaggle.com/datasets/muhammadghazimuharam/indonesiafalsenews?resource=download&select=Data_latih.csv
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.kaggle.com:443
+DEBUG:urllib3.connectionpool:https://www.kaggle.com:443 "GET /datasets/muhammadghazimuharam/indonesiafalsenews?resource=download&select=Data_latih.csv HTTP/1.1" 200 None
+DEBUG:root:Article HTML: 
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Indonesia False News(Hoax) Dataset | Kaggle</title>
+  <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+  <meta name="description" content="Indonesia False News Dataset for Text Classification in Bahasa Indonesia" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#008ABC" />
+  <script nonce="LNnyOirQaCJoov6EuDBaQA==" type="text/javascript">
+    window["pageRequestStartTime"] = 1717154237427;
+    window["pageRequestEndTime"] = 1717154237506;
+    window["initialPageLoadStartTime"] = new Date().getTime();
+  </script>
+  <script nonce="LNnyOirQaCJoov6EuDBaQA==" id="gsi-client" src="https://accounts.google.com/gsi/client" async defer></script>
+  <script nonce="LNnyOirQaCJoov6EuDBaQA==">window.KAGGLE_JUPYTERLAB_PATH = "/static/assets/jupyterlab/jupyterlab-index-74f21230a37e0f155db2.html";</script>...
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:17:16] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:17:38] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.cnnindonesia.com/nasional/20240531095337-617-1104082/budisatrio-tegaskan-tak-maju-di-pilgub-jakarta-prabowo-tugasi-di-dpr
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cnnindonesia.com:443
+DEBUG:urllib3.connectionpool:https://www.cnnindonesia.com:443 "GET /nasional/20240531095337-617-1104082/budisatrio-tegaskan-tak-maju-di-pilgub-jakarta-prabowo-tugasi-di-dpr HTTP/1.1" 200 None
+DEBUG:root:Article text: --
+
+Wakil Ketua Umum Partai Gerindra Budisatrio Djiwandono menegaskan takkan maju sebagai Calon Gubernur Jakarta di Pilkada 2024.
+
+Ia mengaku telah menerima arahan dari Prabowo Subianto untuk tetap menjabat sebagai anggota DPR periode 2024-2029.
+
+"Saya sudah menerima arahan dari Ketua Dewan Pembina/Ketua Umum Partai Gerindra Pak Prabowo untuk terus melanjutkan perjuangan di parlemen," kata Budi lewat pesan singkat, Kamis (30/5) malam.
+
+ADVERTISEMENT SCROLL TO CONTINUE WITH CONTENT
+
+Budisatrio me...
+DEBUG:root:Processed text:  wakil ketua umum partai gerindra budisatrio djiwandono menegaskan takkan maju sebagai calon gubernur jakarta di pilkada 2024 ia mengaku telah menerima arahan dari prabowo subianto untuk tetap menjabat sebagai anggota dpr periode 2024 2029 saya sudah menerima arahan dari ketua dewan pembina ketua umum partai gerindra pak prabowo untuk terus melanjutkan perjuangan di parlemen kata budi lewat pesan singkat kamis 30 5 malam advertisement scroll to continue with content budisatrio menyampaikan gerin...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:17:38] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\HUMAM\\Kuliah\\Semester 3-4\\Pengantar AI\\Fake News Detection\\src\\train_model.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:26:30] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.cnnindonesia.com/nasional/20240531095337-617-1104082/budisatrio-tegaskan-tak-maju-di-pilgub-jakarta-prabowo-tugasi-di-dpr
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cnnindonesia.com:443
+DEBUG:urllib3.connectionpool:https://www.cnnindonesia.com:443 "GET /nasional/20240531095337-617-1104082/budisatrio-tegaskan-tak-maju-di-pilgub-jakarta-prabowo-tugasi-di-dpr HTTP/1.1" 200 None
+DEBUG:root:Article text: --
+
+Wakil Ketua Umum Partai Gerindra Budisatrio Djiwandono menegaskan takkan maju sebagai Calon Gubernur Jakarta di Pilkada 2024.
+
+Ia mengaku telah menerima arahan dari Prabowo Subianto untuk tetap menjabat sebagai anggota DPR periode 2024-2029.
+
+"Saya sudah menerima arahan dari Ketua Dewan Pembina/Ketua Umum Partai Gerindra Pak Prabowo untuk terus melanjutkan perjuangan di parlemen," kata Budi lewat pesan singkat, Kamis (30/5) malam.
+
+ADVERTISEMENT SCROLL TO CONTINUE WITH CONTENT
+
+Budisatrio me...
+DEBUG:root:Processed text:  wakil ketua umum partai gerindra budisatrio djiwandono menegaskan takkan maju sebagai calon gubernur jakarta di pilkada 2024 ia mengaku telah menerima arahan dari prabowo subianto untuk tetap menjabat sebagai anggota dpr periode 2024 2029 saya sudah menerima arahan dari ketua dewan pembina ketua umum partai gerindra pak prabowo untuk terus melanjutkan perjuangan di parlemen kata budi lewat pesan singkat kamis 30 5 malam advertisement scroll to continue with content budisatrio menyampaikan gerin...
+DEBUG:root:Hasil prediksi: Asli
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:26:31] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:27:01] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://kumparan.com/kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kumparan.com:443
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1 HTTP/1.1" 301 119
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM HTTP/1.1" 200 None
+DEBUG:root:Article text: Lebih lanjut, IUPK (izin usaha pertambangan khusus) ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba....
+DEBUG:root:Processed text: lebih lanjut iupk izin usaha pertambangan khusus ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba ...
+DEBUG:root:Hasil prediksi: Asli
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:27:01] "POST /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://kumparan.com/kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): kumparan.com:443
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM/1 HTTP/1.1" 301 119
+DEBUG:urllib3.connectionpool:https://kumparan.com:443 "GET /kumparanbisnis/jokowi-resmi-izinkan-ormas-keagamaan-kelola-lahan-tambang-22qV70Q5GbM HTTP/1.1" 200 None
+DEBUG:root:Article text: Lebih lanjut, IUPK (izin usaha pertambangan khusus) ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba....
+DEBUG:root:Processed text: lebih lanjut iupk izin usaha pertambangan khusus ataupun kepemilikan saham ormas keagamaan pada badan usaha nantinya tidak dapat dipindahtangankan ataupun dialihkan tanpa persetujuan dari menteri yang menyelenggarakan urusan pemerintah di bidang minerba ...
+DEBUG:root:Hasil prediksi: Asli
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:27:04] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:27:11] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pns
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.detik.com:443
+DEBUG:urllib3.connectionpool:https://www.detik.com:443 "GET /properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pns HTTP/1.1" 200 None
+DEBUG:root:Article text: Pemerintah memberikan penjelasan mengenai tabungan perumahan (Tapera) yang belakangan heboh diperbincangkan. Kenapa saat ini Tapera juga diperuntukkan untuk semua Pekerja?
+
+Kepala Staf Kepresidenan Moeldoko menyebut, Tapera adalah program penyediaan perumahan yang dijalankan pemerintah yang juga merupakan lanjutan dari program Bapertarum.
+
+"Tapera itu sesungguhnya perpanjangan dari Bapertarum. Bapertarum ini dulu dikhususkan untuk ASN, sekarang diperluas ke pekerja mandiri dan swasta," ujar Moel...
+DEBUG:root:Processed text: pemerintah memberikan penjelasan mengenai tabungan perumahan tapera yang belakangan heboh diperbincangkan kenapa saat ini tapera juga diperuntukkan untuk semua pekerja kepala staf kepresidenan moeldoko menyebut tapera adalah program penyediaan perumahan yang dijalankan pemerintah yang juga merupakan lanjutan dari program bapertarum tapera itu sesungguhnya perpanjangan dari bapertarum bapertarum ini dulu dikhususkan untuk asn sekarang diperluas ke pekerja mandiri dan swasta ujar moeldoko dalam ko...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:27:12] "POST /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.detik.com/properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pns
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.detik.com:443
+DEBUG:urllib3.connectionpool:https://www.detik.com:443 "GET /properti/berita/d-7367223/moeldoko-jelaskan-alasan-tapera-harus-diikuti-semua-pekerja-tak-cuma-pns HTTP/1.1" 200 None
+DEBUG:root:Article text: Pemerintah memberikan penjelasan mengenai tabungan perumahan (Tapera) yang belakangan heboh diperbincangkan. Kenapa saat ini Tapera juga diperuntukkan untuk semua Pekerja?
+
+Kepala Staf Kepresidenan Moeldoko menyebut, Tapera adalah program penyediaan perumahan yang dijalankan pemerintah yang juga merupakan lanjutan dari program Bapertarum.
+
+"Tapera itu sesungguhnya perpanjangan dari Bapertarum. Bapertarum ini dulu dikhususkan untuk ASN, sekarang diperluas ke pekerja mandiri dan swasta," ujar Moel...
+DEBUG:root:Processed text: pemerintah memberikan penjelasan mengenai tabungan perumahan tapera yang belakangan heboh diperbincangkan kenapa saat ini tapera juga diperuntukkan untuk semua pekerja kepala staf kepresidenan moeldoko menyebut tapera adalah program penyediaan perumahan yang dijalankan pemerintah yang juga merupakan lanjutan dari program bapertarum tapera itu sesungguhnya perpanjangan dari bapertarum bapertarum ini dulu dikhususkan untuk asn sekarang diperluas ke pekerja mandiri dan swasta ujar moeldoko dalam ko...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:27:12] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:27:36] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.cnnindonesia.com/nasional/20240531095337-617-1104082/budisatrio-tegaskan-tak-maju-di-pilgub-jakarta-prabowo-tugasi-di-dpr
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cnnindonesia.com:443
+DEBUG:urllib3.connectionpool:https://www.cnnindonesia.com:443 "GET /nasional/20240531095337-617-1104082/budisatrio-tegaskan-tak-maju-di-pilgub-jakarta-prabowo-tugasi-di-dpr HTTP/1.1" 200 None
+DEBUG:root:Article text: --
+
+Wakil Ketua Umum Partai Gerindra Budisatrio Djiwandono menegaskan takkan maju sebagai Calon Gubernur Jakarta di Pilkada 2024.
+
+Ia mengaku telah menerima arahan dari Prabowo Subianto untuk tetap menjabat sebagai anggota DPR periode 2024-2029.
+
+"Saya sudah menerima arahan dari Ketua Dewan Pembina/Ketua Umum Partai Gerindra Pak Prabowo untuk terus melanjutkan perjuangan di parlemen," kata Budi lewat pesan singkat, Kamis (30/5) malam.
+
+ADVERTISEMENT SCROLL TO CONTINUE WITH CONTENT
+
+Budisatrio me...
+DEBUG:root:Processed text:  wakil ketua umum partai gerindra budisatrio djiwandono menegaskan takkan maju sebagai calon gubernur jakarta di pilkada 2024 ia mengaku telah menerima arahan dari prabowo subianto untuk tetap menjabat sebagai anggota dpr periode 2024 2029 saya sudah menerima arahan dari ketua dewan pembina ketua umum partai gerindra pak prabowo untuk terus melanjutkan perjuangan di parlemen kata budi lewat pesan singkat kamis 30 5 malam advertisement scroll to continue with content budisatrio menyampaikan gerin...
+DEBUG:root:Hasil prediksi: Asli
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:27:37] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:27:47] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://tirto.id/konsulat-ri-22-wni-dibebaskan-sopir-dan-pemilik-bus-ditahan-gY9Z
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tirto.id:443
+DEBUG:urllib3.connectionpool:https://tirto.id:443 "GET /konsulat-ri-22-wni-dibebaskan-sopir-dan-pemilik-bus-ditahan-gY9Z HTTP/1.1" 200 None
+DEBUG:root:Article text: tirto.id - Sebanyak 22 WNI yang ditangkap di Madinah, Arab Saudi pada Rabu (22/5/2024) kemarin sudah dibebaskan usai diperiksa otoritas kejaksaan setempat. Sementara 2 orang sisanya masih ditahan, yakni sopir dan pemilik bus.
+
+Mereka ditangkap Selasa, 28 Mei 2024, saat berada di miqat Masjid Bir Ali Kota Madinah sedang memakai baju ihram. Berdasar pemeriksaan aparat keamanan intel (Apkam) Arab Saudi, koordinator jemaah tersebut menyerahkan contoh visa haji milik orang lain.
+
+"Visa tidak sesuai d...
+DEBUG:root:Processed text: tirto id sebanyak 22 wni yang ditangkap di madinah arab saudi pada rabu 22 5 2024 kemarin sudah dibebaskan usai diperiksa otoritas kejaksaan setempat sementara 2 orang sisanya masih ditahan yakni sopir dan pemilik bus mereka ditangkap selasa 28 mei 2024 saat berada di miqat masjid bir ali kota madinah sedang memakai baju ihram berdasar pemeriksaan aparat keamanan intel apkam arab saudi koordinator jemaah tersebut menyerahkan contoh visa haji milik orang lain visa tidak sesuai dengan paspor setel...
+DEBUG:root:Hasil prediksi: Asli
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:27:48] "POST /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://tirto.id/konsulat-ri-22-wni-dibebaskan-sopir-dan-pemilik-bus-ditahan-gY9Z
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tirto.id:443
+DEBUG:urllib3.connectionpool:https://tirto.id:443 "GET /konsulat-ri-22-wni-dibebaskan-sopir-dan-pemilik-bus-ditahan-gY9Z HTTP/1.1" 200 None
+DEBUG:root:Article text: tirto.id - Sebanyak 22 WNI yang ditangkap di Madinah, Arab Saudi pada Rabu (22/5/2024) kemarin sudah dibebaskan usai diperiksa otoritas kejaksaan setempat. Sementara 2 orang sisanya masih ditahan, yakni sopir dan pemilik bus.
+
+Mereka ditangkap Selasa, 28 Mei 2024, saat berada di miqat Masjid Bir Ali Kota Madinah sedang memakai baju ihram. Berdasar pemeriksaan aparat keamanan intel (Apkam) Arab Saudi, koordinator jemaah tersebut menyerahkan contoh visa haji milik orang lain.
+
+"Visa tidak sesuai d...
+DEBUG:root:Processed text: tirto id sebanyak 22 wni yang ditangkap di madinah arab saudi pada rabu 22 5 2024 kemarin sudah dibebaskan usai diperiksa otoritas kejaksaan setempat sementara 2 orang sisanya masih ditahan yakni sopir dan pemilik bus mereka ditangkap selasa 28 mei 2024 saat berada di miqat masjid bir ali kota madinah sedang memakai baju ihram berdasar pemeriksaan aparat keamanan intel apkam arab saudi koordinator jemaah tersebut menyerahkan contoh visa haji milik orang lain visa tidak sesuai dengan paspor setel...
+DEBUG:root:Hasil prediksi: Asli
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:27:49] "POST /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://tirto.id/konsulat-ri-22-wni-dibebaskan-sopir-dan-pemilik-bus-ditahan-gY9Z
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tirto.id:443
+DEBUG:urllib3.connectionpool:https://tirto.id:443 "GET /konsulat-ri-22-wni-dibebaskan-sopir-dan-pemilik-bus-ditahan-gY9Z HTTP/1.1" 200 None
+DEBUG:root:Article text: tirto.id - Sebanyak 22 WNI yang ditangkap di Madinah, Arab Saudi pada Rabu (22/5/2024) kemarin sudah dibebaskan usai diperiksa otoritas kejaksaan setempat. Sementara 2 orang sisanya masih ditahan, yakni sopir dan pemilik bus.
+
+Mereka ditangkap Selasa, 28 Mei 2024, saat berada di miqat Masjid Bir Ali Kota Madinah sedang memakai baju ihram. Berdasar pemeriksaan aparat keamanan intel (Apkam) Arab Saudi, koordinator jemaah tersebut menyerahkan contoh visa haji milik orang lain.
+
+"Visa tidak sesuai d...
+DEBUG:root:Processed text: tirto id sebanyak 22 wni yang ditangkap di madinah arab saudi pada rabu 22 5 2024 kemarin sudah dibebaskan usai diperiksa otoritas kejaksaan setempat sementara 2 orang sisanya masih ditahan yakni sopir dan pemilik bus mereka ditangkap selasa 28 mei 2024 saat berada di miqat masjid bir ali kota madinah sedang memakai baju ihram berdasar pemeriksaan aparat keamanan intel apkam arab saudi koordinator jemaah tersebut menyerahkan contoh visa haji milik orang lain visa tidak sesuai dengan paspor setel...
+DEBUG:root:Hasil prediksi: Asli
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:27:52] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:28:16] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://finance.detik.com/energi/d-7367196/tok-jokowi-izinkan-ormas-keagamaan-kelola-tambang
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.detik.com:443
+DEBUG:urllib3.connectionpool:https://finance.detik.com:443 "GET /energi/d-7367196/tok-jokowi-izinkan-ormas-keagamaan-kelola-tambang HTTP/1.1" 200 None
+DEBUG:root:Article text: Presiden Joko Widodo (Jokowi) meneken Peraturan Pemerintah (PP) Nomor 25 Tahun 2024 tentang Perubahan atas Peraturan Pemerintah Nomor 96 Tahun 2021 tentang Pelaksanaan Kegiatan Usaha Pertambangan Mineral dan Batubara. Lewat aturan ini Jokowi mengatur izin tambang kepada ormas keagamaan.
+
+PP Nomor 25 Tahun 2024 ini ditetapkan Jokowi pada 30 Mei 2024 dan berlaku efektif pada tanggal diundangkan. Di beleid tersebut, landasan hukum untuk memberikan izin tambang mineral dan batu bara (minerba) kepada...
+DEBUG:root:Processed text: presiden joko widodo jokowi meneken peraturan pemerintah pp nomor 25 tahun 2024 tentang perubahan atas peraturan pemerintah nomor 96 tahun 2021 tentang pelaksanaan kegiatan usaha pertambangan mineral dan batubara lewat aturan ini jokowi mengatur izin tambang kepada ormas keagamaan pp nomor 25 tahun 2024 ini ditetapkan jokowi pada 30 mei 2024 dan berlaku efektif pada tanggal diundangkan di beleid tersebut landasan hukum untuk memberikan izin tambang mineral dan batu bara minerba kepada ormas keag...
+DEBUG:root:Hasil prediksi: Asli
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:28:16] "POST /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://finance.detik.com/energi/d-7367196/tok-jokowi-izinkan-ormas-keagamaan-kelola-tambang
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.detik.com:443
+DEBUG:urllib3.connectionpool:https://finance.detik.com:443 "GET /energi/d-7367196/tok-jokowi-izinkan-ormas-keagamaan-kelola-tambang HTTP/1.1" 200 None
+DEBUG:root:Article text: Presiden Joko Widodo (Jokowi) meneken Peraturan Pemerintah (PP) Nomor 25 Tahun 2024 tentang Perubahan atas Peraturan Pemerintah Nomor 96 Tahun 2021 tentang Pelaksanaan Kegiatan Usaha Pertambangan Mineral dan Batubara. Lewat aturan ini Jokowi mengatur izin tambang kepada ormas keagamaan.
+
+PP Nomor 25 Tahun 2024 ini ditetapkan Jokowi pada 30 Mei 2024 dan berlaku efektif pada tanggal diundangkan. Di beleid tersebut, landasan hukum untuk memberikan izin tambang mineral dan batu bara (minerba) kepada...
+DEBUG:root:Processed text: presiden joko widodo jokowi meneken peraturan pemerintah pp nomor 25 tahun 2024 tentang perubahan atas peraturan pemerintah nomor 96 tahun 2021 tentang pelaksanaan kegiatan usaha pertambangan mineral dan batubara lewat aturan ini jokowi mengatur izin tambang kepada ormas keagamaan pp nomor 25 tahun 2024 ini ditetapkan jokowi pada 30 mei 2024 dan berlaku efektif pada tanggal diundangkan di beleid tersebut landasan hukum untuk memberikan izin tambang mineral dan batu bara minerba kepada ormas keag...
+DEBUG:root:Hasil prediksi: Asli
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:28:18] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:28:35] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.kompas.com/properti/read/2024/05/30/180006421/besi-proyek-gedung-kejagung-jatuh-di-jalur-mrt-ini-tanggapan-hutama
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.kompas.com:443
+DEBUG:urllib3.connectionpool:https://www.kompas.com:443 "GET /properti/read/2024/05/30/180006421/besi-proyek-gedung-kejagung-jatuh-di-jalur-mrt-ini-tanggapan-hutama HTTP/1.1" 200 None
+DEBUG:root:Article text: JAKARTA, KOMPAS.com - PT MRT Jakarta (Perseroda) akan menghentikan sementara operasionalisasi MRT Jakarta.
+
+Hal ini bagian dari dampak yang ditimbulkan atas insiden kegiatan konstruksi Gedung Kejaksaan Agung RI yang digarap oleh PT Hutama Karya (Persero).
+
+Demikian disampaikan manajemen MRT Jakarta dalam akun Instagram resminya @mrtjkt, Kamis (30/5/2024).
+
+https://www.instagram.com/stories/mrtjkt/3379295429706148775?igsh=cTJweHZoaTg2Nm9z
+
+Kepala Divisi Corporate Secretary MRT Jakarta Ahmad Prato...
+DEBUG:root:Processed text: jakarta kompas com pt mrt jakarta perseroda akan menghentikan sementara operasionalisasi mrt jakarta hal ini bagian dari dampak yang ditimbulkan atas insiden kegiatan konstruksi gedung kejaksaan agung ri yang digarap oleh pt hutama karya persero demikian disampaikan manajemen mrt jakarta dalam akun instagram resminya mrtjkt kamis 30 5 2024 https www instagram com stories mrtjkt 3379295429706148775 igsh ctjwehzoatg2nm9z kepala divisi corporate secretary mrt jakarta ahmad pratomo mengungkapkan hal...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:28:36] "POST /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.kompas.com/properti/read/2024/05/30/180006421/besi-proyek-gedung-kejagung-jatuh-di-jalur-mrt-ini-tanggapan-hutama
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.kompas.com:443
+DEBUG:urllib3.connectionpool:https://www.kompas.com:443 "GET /properti/read/2024/05/30/180006421/besi-proyek-gedung-kejagung-jatuh-di-jalur-mrt-ini-tanggapan-hutama HTTP/1.1" 200 None
+DEBUG:root:Article text: JAKARTA, KOMPAS.com - PT MRT Jakarta (Perseroda) akan menghentikan sementara operasionalisasi MRT Jakarta.
+
+Hal ini bagian dari dampak yang ditimbulkan atas insiden kegiatan konstruksi Gedung Kejaksaan Agung RI yang digarap oleh PT Hutama Karya (Persero).
+
+Demikian disampaikan manajemen MRT Jakarta dalam akun Instagram resminya @mrtjkt, Kamis (30/5/2024).
+
+https://www.instagram.com/stories/mrtjkt/3379295429706148775?igsh=cTJweHZoaTg2Nm9z
+
+Kepala Divisi Corporate Secretary MRT Jakarta Ahmad Prato...
+DEBUG:root:Processed text: jakarta kompas com pt mrt jakarta perseroda akan menghentikan sementara operasionalisasi mrt jakarta hal ini bagian dari dampak yang ditimbulkan atas insiden kegiatan konstruksi gedung kejaksaan agung ri yang digarap oleh pt hutama karya persero demikian disampaikan manajemen mrt jakarta dalam akun instagram resminya mrtjkt kamis 30 5 2024 https www instagram com stories mrtjkt 3379295429706148775 igsh ctjwehzoatg2nm9z kepala divisi corporate secretary mrt jakarta ahmad pratomo mengungkapkan hal...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:28:37] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:32:00] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://tekno.kompas.com/read/2016/12/02/15030027/dua.situs.penyebar.hoax.di.indonesia?page=all
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tekno.kompas.com:443
+DEBUG:urllib3.connectionpool:https://tekno.kompas.com:443 "GET /read/2016/12/02/15030027/dua.situs.penyebar.hoax.di.indonesia?page=all HTTP/1.1" 200 None
+DEBUG:root:Article text: JAKARTA, KOMPAS.com — Internet menjadi ladang informasi tanpa batas dengan penyebaran cepat dan cakupan luas. Masyarakat bisa mengetahui sebuah peristiwa secara real-time dan belajar tentang apa saja hanya dengan mengetik kata kunci di kolom mesin pencari.
+
+Namun, ada konsekuensi dari membeludaknya informasi, terlebih ketika semua orang bebas berperan sebagai sumber informasi. Konsekuensi itu adalah buramnya dinding pembatas antara fakta dan hoax.
+
+Komunitas Masyarakat Anti Fitnah Indonesia berh...
+DEBUG:root:Processed text: jakarta kompas com internet menjadi ladang informasi tanpa batas dengan penyebaran cepat dan cakupan luas masyarakat bisa mengetahui sebuah peristiwa secara real time dan belajar tentang apa saja hanya dengan mengetik kata kunci di kolom mesin pencari namun ada konsekuensi dari membeludaknya informasi terlebih ketika semua orang bebas berperan sebagai sumber informasi konsekuensi itu adalah buramnya dinding pembatas antara fakta dan hoax komunitas masyarakat anti fitnah indonesia berhasil mengid...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:32:01] "POST /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://tekno.kompas.com/read/2016/12/02/15030027/dua.situs.penyebar.hoax.di.indonesia?page=all
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tekno.kompas.com:443
+DEBUG:urllib3.connectionpool:https://tekno.kompas.com:443 "GET /read/2016/12/02/15030027/dua.situs.penyebar.hoax.di.indonesia?page=all HTTP/1.1" 200 None
+DEBUG:root:Article text: JAKARTA, KOMPAS.com — Internet menjadi ladang informasi tanpa batas dengan penyebaran cepat dan cakupan luas. Masyarakat bisa mengetahui sebuah peristiwa secara real-time dan belajar tentang apa saja hanya dengan mengetik kata kunci di kolom mesin pencari.
+
+Namun, ada konsekuensi dari membeludaknya informasi, terlebih ketika semua orang bebas berperan sebagai sumber informasi. Konsekuensi itu adalah buramnya dinding pembatas antara fakta dan hoax.
+
+Komunitas Masyarakat Anti Fitnah Indonesia berh...
+DEBUG:root:Processed text: jakarta kompas com internet menjadi ladang informasi tanpa batas dengan penyebaran cepat dan cakupan luas masyarakat bisa mengetahui sebuah peristiwa secara real time dan belajar tentang apa saja hanya dengan mengetik kata kunci di kolom mesin pencari namun ada konsekuensi dari membeludaknya informasi terlebih ketika semua orang bebas berperan sebagai sumber informasi konsekuensi itu adalah buramnya dinding pembatas antara fakta dan hoax komunitas masyarakat anti fitnah indonesia berhasil mengid...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:32:05] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:32:06] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://tekno.kompas.com/read/2016/12/02/15030027/dua.situs.penyebar.hoax.di.indonesia?page=all
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tekno.kompas.com:443
+DEBUG:urllib3.connectionpool:https://tekno.kompas.com:443 "GET /read/2016/12/02/15030027/dua.situs.penyebar.hoax.di.indonesia?page=all HTTP/1.1" 200 None
+DEBUG:root:Article text: JAKARTA, KOMPAS.com — Internet menjadi ladang informasi tanpa batas dengan penyebaran cepat dan cakupan luas. Masyarakat bisa mengetahui sebuah peristiwa secara real-time dan belajar tentang apa saja hanya dengan mengetik kata kunci di kolom mesin pencari.
+
+Namun, ada konsekuensi dari membeludaknya informasi, terlebih ketika semua orang bebas berperan sebagai sumber informasi. Konsekuensi itu adalah buramnya dinding pembatas antara fakta dan hoax.
+
+Komunitas Masyarakat Anti Fitnah Indonesia berh...
+DEBUG:root:Processed text: jakarta kompas com internet menjadi ladang informasi tanpa batas dengan penyebaran cepat dan cakupan luas masyarakat bisa mengetahui sebuah peristiwa secara real time dan belajar tentang apa saja hanya dengan mengetik kata kunci di kolom mesin pencari namun ada konsekuensi dari membeludaknya informasi terlebih ketika semua orang bebas berperan sebagai sumber informasi konsekuensi itu adalah buramnya dinding pembatas antara fakta dan hoax komunitas masyarakat anti fitnah indonesia berhasil mengid...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:32:06] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:32:55] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://health.detik.com/berita-detikhealth/d-7317187/12-obat-biduran-tradisional-ampuh-pakai-bahan-alami
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): health.detik.com:443
+DEBUG:urllib3.connectionpool:https://health.detik.com:443 "GET /berita-detikhealth/d-7317187/12-obat-biduran-tradisional-ampuh-pakai-bahan-alami HTTP/1.1" 200 None
+DEBUG:root:Article text: Biduran atau urtikaria merupakan masalah kulit yang ditandai dengan munculnya ruam putih kemerahan mirip gigitan nyamuk. Umumnya, biduran timbul sebagai reaksi alergi terhadap zat kimia, benda, makanan, atau obat-obatan tertentu.
+
+Biduran yang disertai rasa gatal tentunya terasa sangat mengganggu. Tetapi tenang saja, gejala biduran ringan bisa diatasi dengan mudah menggunakan obat biduran tradisional yang akan diulas di bawah ini.
+
+12 Obat Biduran Tradisional
+
+Biduran tidak selalu harus diobati ...
+DEBUG:root:Processed text: biduran atau urtikaria merupakan masalah kulit yang ditandai dengan munculnya ruam putih kemerahan mirip gigitan nyamuk umumnya biduran timbul sebagai reaksi alergi terhadap zat kimia benda makanan atau obat obatan tertentu biduran yang disertai rasa gatal tentunya terasa sangat mengganggu tetapi tenang saja gejala biduran ringan bisa diatasi dengan mudah menggunakan obat biduran tradisional yang akan diulas di bawah ini 12 obat biduran tradisional biduran tidak selalu harus diobati menggunakan ...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:32:56] "POST /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://health.detik.com/berita-detikhealth/d-7317187/12-obat-biduran-tradisional-ampuh-pakai-bahan-alami
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): health.detik.com:443
+DEBUG:urllib3.connectionpool:https://health.detik.com:443 "GET /berita-detikhealth/d-7317187/12-obat-biduran-tradisional-ampuh-pakai-bahan-alami HTTP/1.1" 200 None
+DEBUG:root:Article text: Biduran atau urtikaria merupakan masalah kulit yang ditandai dengan munculnya ruam putih kemerahan mirip gigitan nyamuk. Umumnya, biduran timbul sebagai reaksi alergi terhadap zat kimia, benda, makanan, atau obat-obatan tertentu.
+
+Biduran yang disertai rasa gatal tentunya terasa sangat mengganggu. Tetapi tenang saja, gejala biduran ringan bisa diatasi dengan mudah menggunakan obat biduran tradisional yang akan diulas di bawah ini.
+
+12 Obat Biduran Tradisional
+
+Biduran tidak selalu harus diobati ...
+DEBUG:root:Processed text: biduran atau urtikaria merupakan masalah kulit yang ditandai dengan munculnya ruam putih kemerahan mirip gigitan nyamuk umumnya biduran timbul sebagai reaksi alergi terhadap zat kimia benda makanan atau obat obatan tertentu biduran yang disertai rasa gatal tentunya terasa sangat mengganggu tetapi tenang saja gejala biduran ringan bisa diatasi dengan mudah menggunakan obat biduran tradisional yang akan diulas di bawah ini 12 obat biduran tradisional biduran tidak selalu harus diobati menggunakan ...
+DEBUG:root:Hasil prediksi: Hoaks
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:32:57] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:33:23] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.halodoc.com/artikel/ini-7-rekomendasi-obat-biduran-yang-ampuh-redakan-gatal-pada-kulit
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.halodoc.com:443
+DEBUG:urllib3.connectionpool:https://www.halodoc.com:443 "GET /artikel/ini-7-rekomendasi-obat-biduran-yang-ampuh-redakan-gatal-pada-kulit HTTP/1.1" 200 None
+DEBUG:root:Article text: “Kamu bisa menggunakan obat biduran yang ada di apotek untuk meredakan rasa gatal. Beberapa rekomendasi obatnya contohnya mulai dari Claritin, Prohistin, Cetirgi, sampai dengan Incidal-OD yang bisa kamu beli di Halodoc.”
+
+DAFTAR ISI:
+
+Rekomendasi Obat Biduran yang Ampuh
+
+Halodoc, Jakarta – Biduran terkenal juga dengan sebutan urtikaria. Kondisi ini merupakan reaksi kulit yang memicu munculnya ruam menonjol warna kemerahan. Ruam yang muncul dapat menyebabkan rasa gatal yang mengganggu.
+
+Ada berba...
+DEBUG:root:Processed text:  kamu bisa menggunakan obat biduran yang ada di apotek untuk meredakan rasa gatal beberapa rekomendasi obatnya contohnya mulai dari claritin prohistin cetirgi sampai dengan incidal od yang bisa kamu beli di halodoc daftar isi rekomendasi obat biduran yang ampuh halodoc jakarta biduran terkenal juga dengan sebutan urtikaria kondisi ini merupakan reaksi kulit yang memicu munculnya ruam menonjol warna kemerahan ruam yang muncul dapat menyebabkan rasa gatal yang mengganggu ada berbagai faktor risiko...
+DEBUG:root:Hasil prediksi: Asli
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:33:24] "POST /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.halodoc.com/artikel/ini-7-rekomendasi-obat-biduran-yang-ampuh-redakan-gatal-pada-kulit
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.halodoc.com:443
+DEBUG:urllib3.connectionpool:https://www.halodoc.com:443 "GET /artikel/ini-7-rekomendasi-obat-biduran-yang-ampuh-redakan-gatal-pada-kulit HTTP/1.1" 200 None
+DEBUG:root:Article text: “Kamu bisa menggunakan obat biduran yang ada di apotek untuk meredakan rasa gatal. Beberapa rekomendasi obatnya contohnya mulai dari Claritin, Prohistin, Cetirgi, sampai dengan Incidal-OD yang bisa kamu beli di Halodoc.”
+
+DAFTAR ISI:
+
+Rekomendasi Obat Biduran yang Ampuh
+
+Halodoc, Jakarta – Biduran terkenal juga dengan sebutan urtikaria. Kondisi ini merupakan reaksi kulit yang memicu munculnya ruam menonjol warna kemerahan. Ruam yang muncul dapat menyebabkan rasa gatal yang mengganggu.
+
+Ada berba...
+DEBUG:root:Processed text:  kamu bisa menggunakan obat biduran yang ada di apotek untuk meredakan rasa gatal beberapa rekomendasi obatnya contohnya mulai dari claritin prohistin cetirgi sampai dengan incidal od yang bisa kamu beli di halodoc daftar isi rekomendasi obat biduran yang ampuh halodoc jakarta biduran terkenal juga dengan sebutan urtikaria kondisi ini merupakan reaksi kulit yang memicu munculnya ruam menonjol warna kemerahan ruam yang muncul dapat menyebabkan rasa gatal yang mengganggu ada berbagai faktor risiko...
+DEBUG:root:Hasil prediksi: Asli
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:33:25] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:34:04] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.metrotvnews.com/read/NrWC54W0-daftar-15-negara-dengan-penurunan-ekonomi-tercepat-di-dunia
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.metrotvnews.com:443
+DEBUG:urllib3.connectionpool:https://www.metrotvnews.com:443 "GET /read/NrWC54W0-daftar-15-negara-dengan-penurunan-ekonomi-tercepat-di-dunia HTTP/1.1" 200 14172
+DEBUG:root:Article HTML: <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Daftar 15 Negara dengan Penurunan Ekonomi Tercepat di Dunia</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta http-equiv="cache-control" content="max-age=0">
+		<meta http-equiv="cache-control" content="no-cache">
+		<meta http-equiv="expires" content="0">
+		<meta http-equiv="pragma" content="no-cache"> -->
+
+    <meta name="title" content="Daftar 15 Negara dengan Penurunan Ekonomi Tercepat di Dunia" />
+    <meta name="description" content="?Daftar 15 Negara dengan Penurunan Ekonomi Tercepat di Dunia" />
+    <meta name="keywords" content="ekonomi dunia, krisis ekonomi, negara dengan penurunan ekonomi tercepat di dunia" />
+
+    <meta property="fb:app_id" content="203524126861222" />
+    <meta property="og:locale" co...
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:34:05] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -

@@ -1111,3 +1111,27 @@ DEBUG:root:Article HTML: <!DOCTYPE html>
     <meta property="fb:app_id" content="203524126861222" />
     <meta property="og:locale" co...
 INFO:werkzeug:127.0.0.1 - - [31/May/2024 18:34:05] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-642-454
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 22:20:37] "OPTIONS /predict HTTP/1.1" 200 -
+DEBUG:root:URL received: https://www.cnnindonesia.com/nasional/20240531123900-12-1104191/2-penumpang-terluka-usai-ka-pasundan-diserang-di-surabaya
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cnnindonesia.com:443
+DEBUG:urllib3.connectionpool:https://www.cnnindonesia.com:443 "GET /nasional/20240531123900-12-1104191/2-penumpang-terluka-usai-ka-pasundan-diserang-di-surabaya HTTP/1.1" 200 None
+DEBUG:root:Article text: --
+
+Dua penumpang KA Pasundan mengalami luka akibat pelemparan oleh kelompok orang tidak dikenal (OTK) pada Kamis (30/5) sekitar pukul 23.54 WIB.
+
+Manager Humas KAI Daop 8 Surabaya Luqman Arif mengatakan, dua penumpang itu mengalami luka di bagian lengan dan kepala saat kejadian itu.
+
+"Dua penumpang luka ringan dan sudah diobati saat itu juga, [luka] ada di pipi dan pergelangan tangan," kata Luqman saat dikonfirmasi, Jumat (31/5).
+
+ADVERTISEMENT SCROLL TO CONTINUE WITH CONTENT
+
+Peristiwa pelempa...
+DEBUG:root:Processed text:  dua penumpang ka pasundan mengalami luka akibat pelemparan oleh kelompok orang tidak dikenal otk pada kamis 30 5 sekitar pukul 23 54 wib manager humas kai daop 8 surabaya luqman arif mengatakan dua penumpang itu mengalami luka di bagian lengan dan kepala saat kejadian itu dua penumpang luka ringan dan sudah diobati saat itu juga luka ada di pipi dan pergelangan tangan kata luqman saat dikonfirmasi jumat 31 5 advertisement scroll to continue with content peristiwa pelemparan batu itu terjadi wak...
+DEBUG:root:Hasil prediksi: Asli
+INFO:werkzeug:127.0.0.1 - - [31/May/2024 22:20:38] "POST /predict HTTP/1.1" 200 -
